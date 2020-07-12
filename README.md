@@ -33,7 +33,7 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 
 <h4><a id="Run_the_application_90"></a>Chạy ứng dụng</h4>
 <ul>
-<li>Trước hết cần chuyển thư mục Employeeledger vào đường dẫn /home/go/github.com</li>
+<li>Trước hết cần chuyển thư mục Employeeledger vào đường dẫn <code>home/go/src/github.com</code></li>
 <li>Trong thư mục Employeeledger đã có một file "make",mở terminal và gõ "make" và đợi trong giây lát để ứng dụng được build</li>
 <li>Khi có thông báo thành công, ứng dụng đã được chạy trên cổng 8000 của localhost</li>
 <li>Bây giờ, mở trình duyệt lên và gõ <a href="http://localhost:8000">http://localhost:8000</a></li>
@@ -63,5 +63,5 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 
 <h2>Video hướng dẫn sử dụng</h2>
 
-<iframe width="800" height="450" src="https://www.youtube.com/embed/V2hlQkVJZhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<video width="800" height="450" src="https://www.youtube.com/embed/V2hlQkVJZhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
 
