@@ -47,7 +47,7 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 
 <h5>Bảng điều khiển</h5>
 
-<img src="media/export_dashboard.png">
+<img src="media/dashboard.png">
 
 <h5>Đăng kí</h5>
 
