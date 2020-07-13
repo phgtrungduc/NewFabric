@@ -34,7 +34,11 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 <h4><a id="Run_the_application_90"></a>Chạy ứng dụng</h4>
 <ul>
 <li>Trước hết cần chuyển thư mục Employeeledger vào đường dẫn <code>home/go/src/github.com</code></li>
-<li>Trong thư mục Employeeledger đã có một file "make",mở terminal và gõ "make" và đợi trong giây lát để ứng dụng được build</li>
+<li>Nếu trước đó đã từng chạy ứng dụng này cần chạy các câu lệnh để kill hết các container đã chạy</li>
+<pre>    $docker kill $(docker ps -q) 
+    $docker rm $(docker ps -aq)
+    $docker rmi $(docker images dev-* -q)</code></pre>
+<li>Sau khi đã chạy câu lệnh trên, trong thư mục Employeeledger đã có một file "make" được xây dựng,mở terminal gõ "make" và đợi trong giây lát để ứng dụng được build</li>
 <li>Khi có thông báo thành công, ứng dụng đã được chạy trên cổng 8000 của localhost</li>
 <li>Bây giờ, mở trình duyệt lên và gõ <a href="http://localhost:8000">http://localhost:8000</a></li>
 </ul>
@@ -43,7 +47,7 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 
 <h5>Đăng nhập</h5>
 
-<img src="media/export_user_login.png">
+<img src="media/login.png">
 
 <h5>Bảng điều khiển</h5>
 
@@ -63,5 +67,5 @@ $ go version go1.<span class="hljs-number">11</span> linux/amd64
 
 <h2>Video hướng dẫn sử dụng</h2>
 
-<video width="800" height="450" src="https://www.youtube.com/embed/V2hlQkVJZhE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></video>
+[Link to video](https://youtu.be/qlEBKHg16ek)
 
